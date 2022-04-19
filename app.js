@@ -92,19 +92,6 @@
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// let hoppy =['swimming','gaming','football'];
-
-// function addList(){
-//     var elem=document.getElementsByName(hoppy);
-//     elem.push('thhhhhhhhh');
-
-//     hoppy[3]='coding'
-//     alert(hoppy)
-//     // let addItems=mainGoals.push('CEO','Motivator')
-//     // alert (mainGoals[4]+"\n|| from latest command code")
-// }
-
-// addList()
 
 
 
@@ -112,37 +99,55 @@
 //////////////////////////////////////////////////////////
 // get element by id
 
-function changeColor(newColor) {
-    var elem = document.getElementById('para');
-    elem.style.color = newColor;
-  };
-
-document.getElementById('add').onclick = function changeContent() {
-
-    document.getElementById('add').textContent = "Help me";
-    document.getElementById('add').style = "Color: red";
+// function changeColor(newColor) {
+//     var elem = document.getElementById('para');
+//     elem.style.color = newColor;
+//   };
+  
+//   document.getElementById('add').onclick = function changeContent() {
+      
+//       document.getElementById('add').textContent = "Help me";
+//     document.getElementById('add').style = "Color: red";
  
- }
- changeContent()
+//  }
+//  changeContent()
 
-
-
-
-
+ 
+ 
+ 
+ 
  ////////////////////////////////////////////////////////////
- var element = document.createElement('div');
-element.id = 'testqq';
-var el = document.getElementById('testqq'); // el will be null!
+//  var element = document.createElement('div');
+//  element.id = 'testqq';
+//  var el = document.getElementById('testqq'); // el will be null!
+ 
+ 
+ 
+ 
+ 
+ /////////////////////////////////////////////////////////////////
+//  let log = document.getElementById('log');
+ 
+//  document.onclick = inputChange;
+ 
+// function inputChange(e) {
+//     log.textContent = `Position: (${e.clientX}, ${e.clientY})`;
+// }
 
 
 
 
+///////////////////////////////////////////////////
+let hoppy =['swimming','gaming','football'];
 
-/////////////////////////////////////////////////////////////////
-let log = document.getElementById('log');
+function addList(){
+    var elem=document.getElementsByName(hoppy);
+    elem.push('thhhhhhhhh');
 
-document.onclick = inputChange;
-
-function inputChange(e) {
-  log.textContent = `Position: (${e.clientX}, ${e.clientY})`;
+    hoppy[3]='coding'
+    alert(hoppy)
+    // let addItems=mainGoals.push('CEO','Motivator')
+    // alert (mainGoals[4]+"\n|| from latest command code")
 }
+
+addList()
