@@ -66,12 +66,38 @@ let job = {
 
 // example(argument);
 
-let person = {
-    name: 'Abdirisak', // Property
-    greet() {  // Method
-        // alert('Hello!');
-        console.log('Hello!');
-    }
-};
+// let person = {
+//     name: 'Abdirisak', // Property
+//     greet() {  // Method
+//         // alert('Hello!');
+//         console.log('Hello!');
+//     }
+// };
 
-person.greet();
+// person.greet();
+
+
+const animals = ['pigs', 'goats', 'sheep'];
+
+const count = animals.push('cows');
+console.log(count);
+// expected output: 4
+console.log(animals);
+// expected output: Array ["pigs", "goats", "sheep", "cows"]
+
+animals.push('chickens', 'cats', 'dogs');
+console.log(animals);
+
+// expected output: Array ["pigs", "goats", "sheep", "cows", "chickens", "cats", "dogs"]
+
+
+// function changeColor(newColor) {
+//     var elem = document.getElementById('para');
+//     elem.style.color = newColor;
+//   }
+
+  
+// function addList(newItem){
+//     var elem=document.getElementById('');
+//     elem.style.color=newItem;
+// }

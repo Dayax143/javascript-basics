@@ -40,7 +40,8 @@ alert(mainGoals[1] + "\n|| calling array variable by index:1")
 
 
 function custom(){
-        alert (mainGoals[2]+"\n|| from latest command code")
+        let addItems=mainGoals.push('CEO','Motivator')
+        alert (mainGoals[4]+"\n|| from latest command code")
 }
 custom(mainGoals)
 
