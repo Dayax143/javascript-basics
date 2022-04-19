@@ -77,27 +77,35 @@ let job = {
 // person.greet();
 
 
-const animals = ['pigs', 'goats', 'sheep'];
+// const animals = ['pigs', 'goats', 'sheep'];
 
-const count = animals.push('cows');
-console.log(count);
-// expected output: 4
-console.log(animals);
-// expected output: Array ["pigs", "goats", "sheep", "cows"]
+// const count = animals.push('cows');
+// console.log(count);
+// // expected output: 4
+// console.log(animals);
+// // expected output: Array ["pigs", "goats", "sheep", "cows"]
 
-animals.push('chickens', 'cats', 'dogs');
-console.log(animals);
+// animals.push('chickens', 'cats', 'dogs');
+// console.log(animals);
 
 // expected output: Array ["pigs", "goats", "sheep", "cows", "chickens", "cats", "dogs"]
 
 
-// function changeColor(newColor) {
-//     var elem = document.getElementById('para');
-//     elem.style.color = newColor;
-//   }
+function changeColor(newColor) {
+    var elem = document.getElementById('para');
+    elem.style.color = newColor;
+  };
 
-  
-// function addList(newItem){
-//     var elem=document.getElementById('');
-//     elem.style.color=newItem;
-// }
+let hoppy =['swimming','gaming','football'];
+
+function addList(){
+    var elem=document.getElementById('add');
+    elem.push=(newItem);
+
+    hoppy[3]='coding'
+    alert(hoppy[3])
+    // let addItems=mainGoals.push('CEO','Motivator')
+    // alert (mainGoals[4]+"\n|| from latest command code")
+}
+
+addList()
