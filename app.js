@@ -1,11 +1,11 @@
-let age = 30;
-let userName = 'Abdi';
-let hoppies = ['Reading', 'Writing',  'Sports'];
-let job = {
-    title: 'Developer',
-    location: 'Hargeisa',
-    salary: 5000
-};
+// let age = 30;
+// let userName = 'Abdi';
+// let hoppies = ['Reading', 'Writing',  'Sports'];
+// let job = {
+//     title: 'Developer',
+//     location: 'Hargeisa',
+//     salary: 5000
+// };
 
 // alert(userName);
 // alert(age);
@@ -14,7 +14,7 @@ let job = {
 // age = 45; 
 // let adultYear = age - 15;
 // alert(adultYear);
-
+//////////////////////////////////////////////////////////////////////////////////
 // let adultYear; 
 
 // function calculateAdultYear() {
@@ -23,7 +23,7 @@ let job = {
 
 // calculateAdultYear();
 // alert(adultYear);
-
+/////////////////////////////////////////////////////////////////////////////////
 // age = 45;
 // calculateAdultYear();
 
@@ -37,7 +37,7 @@ let job = {
 
 // totalAdultYears = calculateAdultYears();
 // alert(totalAdultYears);
-
+////////////////////////////////////////////////////////////////////////////////
 // age = 45; 
 // totalAdultYears = calculateAdultYears();
 
@@ -51,7 +51,7 @@ let job = {
 
 // totalAdultYears = calculateAdultYears(age);
 // alert(totalAdultYears);
-
+////////////////////////////////////////////////////////////////////////////////////////////////////
 // age = 60; 
 // totalAdultYears = calculateAdultYears(age);
 // alert(totalAdultYears);
@@ -61,7 +61,7 @@ let job = {
 // function example(parameter) {
 //     alert(parameter);
 // }
-
+/////////////////////////////////////////////////////////////////////////////////////////////////////
 // const argument  = 'FFU';
 
 // example(argument);
@@ -76,7 +76,7 @@ let job = {
 
 // person.greet();
 
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////
 // const animals = ['pigs', 'goats', 'sheep'];
 
 // const count = animals.push('cows');
@@ -90,22 +90,59 @@ let job = {
 
 // expected output: Array ["pigs", "goats", "sheep", "cows", "chickens", "cats", "dogs"]
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// let hoppy =['swimming','gaming','football'];
+
+// function addList(){
+//     var elem=document.getElementsByName(hoppy);
+//     elem.push('thhhhhhhhh');
+
+//     hoppy[3]='coding'
+//     alert(hoppy)
+//     // let addItems=mainGoals.push('CEO','Motivator')
+//     // alert (mainGoals[4]+"\n|| from latest command code")
+// }
+
+// addList()
+
+
+
+
+//////////////////////////////////////////////////////////
+// get element by id
 
 function changeColor(newColor) {
     var elem = document.getElementById('para');
     elem.style.color = newColor;
   };
 
-let hoppy =['swimming','gaming','football'];
+document.getElementById('add').onclick = function changeContent() {
 
-function addList(){
-    var elem=document.getElementById('add');
-    elem.push=(newItem);
+    document.getElementById('add').textContent = "Help me";
+    document.getElementById('add').style = "Color: red";
+ 
+ }
+ changeContent()
 
-    hoppy[3]='coding'
-    alert(hoppy[3])
-    // let addItems=mainGoals.push('CEO','Motivator')
-    // alert (mainGoals[4]+"\n|| from latest command code")
+
+
+
+
+ ////////////////////////////////////////////////////////////
+ var element = document.createElement('div');
+element.id = 'testqq';
+var el = document.getElementById('testqq'); // el will be null!
+
+
+
+
+
+/////////////////////////////////////////////////////////////////
+let log = document.getElementById('log');
+
+document.onclick = inputChange;
+
+function inputChange(e) {
+  log.textContent = `Position: (${e.clientX}, ${e.clientY})`;
 }
-
-addList()
