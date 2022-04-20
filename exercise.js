@@ -45,4 +45,12 @@ function custom(){
 custom(mainGoals)
 
 
+function dynamic() {
+        let person=prompt("Enter the index of your goal :")
+        if (person != null) {
+          document.getElementById("solved").innerHTML =
+          "Congratulations: " + mainGoals[person] + " is a good Goal, wish you to acheive recently.";
+        }
+        
+      }
 
