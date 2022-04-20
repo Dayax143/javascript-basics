@@ -1,11 +1,11 @@
-let age = 30;
-let userName = 'Abdi';
-let hoppies = ['Reading', 'Writing',  'Sports'];
-let job = {
-    title: 'Developer',
-    location: 'Hargeisa',
-    salary: 5000
-};
+// let age = 30;
+// let userName = 'Abdi';
+// let hoppies = ['Reading', 'Writing',  'Sports'];
+// let job = {
+//     title: 'Developer',
+//     location: 'Hargeisa',
+//     salary: 5000
+// };
 
 // alert(userName);
 // alert(age);
