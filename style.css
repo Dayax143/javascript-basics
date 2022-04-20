@@ -1,34 +1,6 @@
-body{
-    background:linear-gradient(270deg, rgb(0,10,60),rgb(30,60,0));
-}
-
 h1{
     color:rgba(00, 120,200, 0.6);
-    background-color: rgba(200, 249, 33,0.9);
     font-size: 2rem;
     text-align: center;
-    align-items: center;
-    /* border: 0.1rem solid rgb(40, 100, 100); */
-    border-radius: 0.5rem;
-    margin: 10rem 10rem 0 10rem;
     padding: 1rem;
-    box-shadow: 0.5rem 0.5rem 21rem 2rem rgb(255, 255, 250);
-    text-shadow: 0.1rem 0.1rem 2rem rgb(0, 0, 0);
-}
-
-#update{
-        text-align: center;
-        padding: 1rem;
-        /* box-shadow: 0.5rem 0.5rem 21rem 2rem rgb(255, 255, 250);
-        text-shadow: 0.1rem 0.1rem 2rem rgb(0, 0, 0); */
-}
-
-footer{
-    text-align: center;
-    color:rgba(255,255,255,0.6);
-    padding: 1rem;
-    margin:0rem 4rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    box-shadow: 0.2rem 0.2rem 0.8rem 0.8rem rgba(00, 00, 00,0.6);
-    background: linear-gradient(340deg, rgba(18,20,0,0.6),rgba(0,0,60,0.6));
 }

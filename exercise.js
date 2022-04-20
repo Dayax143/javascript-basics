@@ -25,7 +25,7 @@
 
 let course='Web Development'
 let price= 1500
-let mainGoals=['Web Developer','Freelancer','Leadership']
+let mainGoals=['Developer','Programmer','Database Admistrator']
 
 alert(course+price+mainGoals+" \n|| reading 3 variables");
 
@@ -46,11 +46,11 @@ custom(mainGoals)
 
 
 function dynamic() {
-        let person=prompt("Enter the index of your goal :")
+        let person=prompt()
         if (person != null) {
-          document.getElementById("solved").innerHTML =
-          "Congratulations: " + mainGoals[person] + " is a good Goal, wish you to acheive recently.";
+          document.getElementById("badal").innerHTML =
+          "Congratulations: " + mainGoals[person];
         }
-        
+
       }
 
