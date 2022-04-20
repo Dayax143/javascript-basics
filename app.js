@@ -151,3 +151,13 @@ function addList(){
 }
 
 addList()
+
+
+
+function myFunction() {
+let person = prompt("name", "job");
+  if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Hello " + person + "! How are you today?";
+  }
+}

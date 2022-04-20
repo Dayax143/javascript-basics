@@ -44,6 +44,3 @@ function custom(){
         alert (mainGoals[4]+"\n|| from latest command code")
 }
 custom(mainGoals)
-
-
-

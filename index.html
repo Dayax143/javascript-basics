@@ -10,7 +10,8 @@
         <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=PT+Serif:ital,wght@1,700&display=swap" rel="stylesheet">    
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=PT+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+
         <script src="app.js"></script>
         <!-- <script src="exercise.js"></script> -->
         <link rel="stylesheet" href="style.css">
@@ -20,35 +21,33 @@
         <footer>&copy; Dayax Tech_Center</footer>
         
         
-        <p id="para">Some text here</p>
+        <!-- <p id="para">Some text here</p>
         <button onclick="changeColor('blue');">blue</button>
-        <button onclick="changeColor('red');">red</button>
+        <button onclick="changeColor('red');">red</button> -->
 
 
-        <p id="add">Watching</p>
+        <!-- <p id="add">Watching</p> -->
         
-
         
-        <p>Click anywhere in this example.</p>
-        <p id="log"></p>
+        <!--         
+                <p>Click anywhere in this example.</p>
+                <p id="log"></p> -->
        
         <!-- -------------------------------------------------------- -->
         
-        <h2>The Window Object</h2>
-        <h3>The prompt() Method</h3>
-        
-        <p>Click the button to demonstrate the prompt box.</p>
         
         <button onclick="myFunction()">Try it</button>
         
-        <p id="demo"></p>
+        <p id="update"></p>
         
         <script>
+          let mainGoals=['Web Developer','Freelancer','Leadership']
+          
         function myFunction() {
-          let person = prompt("Please enter your name", "Harry Potter");
+          let person = prompt(mainGoals);
           if (person != null) {
-            document.getElementById("demo").innerHTML =
-            "Hello " + person + "! How are you today?";
+            document.getElementById("update").innerHTML =
+            "Congratulations: " + mainGoals[person] + "! How are you today?";
           }
         }
         </script>
