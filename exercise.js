@@ -19,34 +19,24 @@
 
 
 
+let course='Web2'
+let price= 1000
+let mainGoals=['Developer','Programmer','Database Admistrator','BackEnd Dev','FrontEnd Dev']
 
+alert(course+' '+price+' '+mainGoals+" \n|| reading 3 variables");
 
-// proplem solution
-
-let course='Web Development'
-let price= 1500
-let mainGoals=['Developer','Programmer','Database Admistrator']
-
-alert(course+price+mainGoals+" \n|| reading 3 variables");
-
-function dhamal(){
+function calling(){
         alert(course+"\n|| from the first function \n\n"+price+"\n||  from the first function \n\n"+mainGoals+"\n|| from the first function")
         
 }
-dhamal()
+calling()
 
 
 alert(mainGoals[1] + "\n|| calling array variable by index:1")
 
 
-function custom(){
-        alert (mainGoals[2]+"\n|| from latest command code")
-}
-custom(mainGoals)
-
-
 function dynamic() {
-        let person=prompt()
+        let person=prompt('enter the goal by index')
         if (person != null) {
           document.getElementById("badal").innerHTML =
           "Congratulations: " + mainGoals[person];

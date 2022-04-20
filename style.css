@@ -1,6 +1,9 @@
 h1{
-    color:rgba(00, 120,200, 0.6);
     font-size: 2rem;
     text-align: center;
     padding: 1rem;
+}
+
+#update{
+    margin-left: 36rem;
 }
