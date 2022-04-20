@@ -39,11 +39,52 @@ dhamal()
 alert(mainGoals[1] + "\n|| calling array variable by index:1")
 
 
-function custom(){
-        let addItems=mainGoals.push('CEO','Motivator')
-        alert (mainGoals[4]+"\n|| from latest command code")
-}
-custom(mainGoals)
+            // exercise time
+            bilaw=mainGoals.length
+
+            function myFunction() {
+              let goalIndex=prompt("Enter the index of your goal :")
+              newgoal_content=mainGoals[goalIndex]
+              if (goalIndex != null) {
+                document.getElementById("update").innerHTML=
+                "Congratulations : "  + newgoal_content + " wish you to acheive soon.";
+              }
+            }         
+                        // Adding an item to index 
+                        var x = bilaw
+            
+            function addGoal(){
+              box=document.getElementById("newgoal").value;
+              document.getElementById("newgoal").style.visibility="visible"
+              if(box != ""){
+             mainGoals[x] = document.getElementById("newgoal").value;
+             alert("Element: " + mainGoals[x] + " Added at index " + x);
+             x++;
+             document.getElementById("newgoal").value = "";
+              }
+              else{
+                alert("please fill textbox !!")
+              }
+            }
+
+
+      // then displaying javascript code
+      // function addGoal
+      // {
+      //    var e = "<hr/>";   
+          
+      //    for (var y=0; y<array.length; y++)
+      //    {
+      //      e += "Element " + y + " = " + array[y] + "<br/>";
+      //     }
+      //     document.getElementById("Result").innerHTML = e;
+      // }     
+        // function guardarNumeros(){
+        //   var items = [];
+        //   boxvalue = document.getElementById('box').value;
+        //   items.push(boxvalue);  
+        //   console.log(items);
+        // }
 
 
 
