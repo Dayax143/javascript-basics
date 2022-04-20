@@ -36,20 +36,27 @@
         <!-- -------------------------------------------------------- -->
         
         
-        <button onclick="myFunction()">Try it</button>
-        
-        <p id="update"></p>
+        <button onclick="myFunction()">Start work</button>
+        <button onclick="addGoal()">Add new goal</button>
+        <p id="update">Focus this text - it's dynamic</p>
         
         <script>
           let mainGoals=['Web Developer','Freelancer','Leadership']
           
         function myFunction() {
-          let person = prompt(mainGoals);
+          let person=prompt("Enter the index of your goal :")
           if (person != null) {
             document.getElementById("update").innerHTML =
-            "Congratulations: " + mainGoals[person] + "! How are you today?";
+            "Congratulations: " + mainGoals[person] + " is a good Goal, wish you to acheive recently.";
           }
         }
+
+        function addGoal(){
+          let newGoal =prompt('Enter the new goal')
+          if (person != null) {
+            mainGoals.push[newGoal]
+        }
+      }
         </script>
      </body>
 </html>
