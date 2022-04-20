@@ -12,7 +12,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=PT+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
 
-        <script src="app.js"></script>
+        <!-- <script src="app.js"></script> -->
         <!-- <script src="exercise.js"></script> -->
         <link rel="stylesheet" href="style.css">
     </head>
@@ -35,26 +35,26 @@
        
         <!-- -------------------------------------------------------- -->
         
-        
-        <button onclick="myFunction()">Start work</button>
-        <button onclick="addGoal()">Add new goal</button>
-        <p id="update">Focus this text - it's dynamic</p>
-        
+       <main>
+          <button onclick="myFunction()">Start work</button>
+          <button onclick="addGoal()">Add new goal</button>
+          <p id="update">Focus this text - it's dynamic</p>
+       </main> 
         <script>
           let mainGoals=['Web Developer','Freelancer','Leadership']
           
         function myFunction() {
-          let person=prompt("Enter the index of your goal :")
-          if (person != null) {
+          let goalIndex=prompt("Enter the index of your goal :")
+          if (goalIndex != null) {
             document.getElementById("update").innerHTML =
-            "Congratulations: " + mainGoals[person] + " is a good Goal, wish you to acheive recently.";
+            "Congratulations: " + mainGoals[goalIndex] + " is a good Goal, wish you to acheive recently.";
           }
         }
 
         function addGoal(){
           let newGoal =prompt('Enter the new goal')
           if (person != null) {
-            mainGoals.push[newGoal]
+            mainGoals[3]=newGoal.toString
         }
       }
         </script>

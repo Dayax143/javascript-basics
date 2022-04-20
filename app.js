@@ -141,23 +141,14 @@
 let hoppy =['swimming','gaming','football'];
 
 function addList(){
-    var elem=document.getElementsByName(hoppy);
-    elem.push('thhhhhhhhh');
-
     hoppy[3]='coding'
-    alert(hoppy)
-    // let addItems=mainGoals.push('CEO','Motivator')
-    // alert (mainGoals[4]+"\n|| from latest command code")
+    let addItems=hoppy.push('CEO','Motivator')
+    
+    let box=prompt('enter new hoppy')
+    if(box!=null){
+        addItems
+        alert(hoppy[4]+"\n|| from latest command code")
+    }
 }
 
-addList()
-
-
-
-function myFunction() {
-let person = prompt("name", "job");
-  if (person != null) {
-    document.getElementById("demo").innerHTML =
-    "Hello " + person + "! How are you today?";
-  }
-}
+addList();

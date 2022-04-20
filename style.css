@@ -17,6 +17,19 @@ h1{
     text-shadow: 0.1rem 0.1rem 2rem rgb(0, 0, 0);
 }
 
+main{
+    text-align: center;
+}
+
+main button{
+    padding: 1rem;
+}
+
+main p{
+    font-size: 2rem;
+    color: white;
+}
+
 footer{
     text-align: center;
     font-family: 'Kanit',Serif;
@@ -25,4 +38,7 @@ footer{
     margin:0rem 4rem;
     box-shadow: 0.2rem 0.2rem 0.8rem 0.8rem rgba(00, 00, 00,0.6);
     background: linear-gradient(340deg, rgba(18,20,0,0.6),rgba(0,0,60,0.6));
+    position: fixed;
+    bottom: 1rem;
+    width: 74rem;
 }
