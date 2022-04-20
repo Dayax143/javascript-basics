@@ -46,6 +46,11 @@ main button:hover{
 #wish{
     color: white;
 }
+#newgoal{
+    font-size: inherit;
+    height: 3.2rem;
+    visibility:hidden;
+}
 main p{
     font-size: 2rem;
     color: rgba(250, 250, 150,0.5);

@@ -37,7 +37,8 @@
         
        <main>
          
-         <button onclick="myFunction()"> <a>Start work</a></button>
+         <button onclick="myFunction()"> <a>Show Goals</a></button>
+         <input type="text" placeholder="Enter new goal here " id="newgoal"></input>
          <button onclick="addGoal()">Add new goal</button>
          <p id="update">Focus this text -<span id="wish"> it's dynamic</span></p>
          
@@ -46,7 +47,6 @@
             <input type="text" id="box">
             <input type="submit" value="Submit">
           </form> -->
-          <input type="text" placeholder="Enter new goal here " id="newgoal"></input>
           </main> 
           <script>
             
@@ -66,11 +66,12 @@
             
             function addGoal(){
               box=document.getElementById("newgoal").value;
+              document.getElementById("newgoal").style.visibility="visible"
               if(box != ""){
              mainGoals[x] = document.getElementById("newgoal").value;
              alert("Element: " + mainGoals[x] + " Added at index " + x);
              x++;
-             document.getElementById("text1").value = "";
+             document.getElementById("newgoal").value = "";
               }
               else{
                 alert("please fill textbox !!")
