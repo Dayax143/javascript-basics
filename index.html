@@ -40,8 +40,7 @@
          <button onclick="myFunction()"> <a>Show Goals</a></button>
          <input type="text" placeholder="Enter new goal here " id="newgoal"></input>
          <button onclick="addGoal()">Add new goal</button>
-         <p id="update">Focus this text -<span id="wish"> it's dynamic</span></p>
-         
+         <p id="update">Focus on this text -<span id="wish" style="color:white"> This text is dynamic</span></p>
          <!-- <form onsubmit="guardarNumeros()">
            <p>Please insert the items</p>
             <input type="text" id="box">
@@ -56,9 +55,10 @@
 
             function myFunction() {
               let goalIndex=prompt("Enter the index of your goal :")
+              newgoal_content=mainGoals[goalIndex]
               if (goalIndex != null) {
-                document.getElementById("update").innerHTML =
-                "Congratulations: " + mainGoals[goalIndex] + ' this goal is amazing, wish you to acheive recently.';
+                document.getElementById("update").innerHTML=
+                "Congratulations : "  + newgoal_content + " wish you to acheive soon.";
               }
             }         
                         // Adding an item to index 
